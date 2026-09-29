@@ -1,55 +1,154 @@
-<div align="center">
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Đào Nhựt Quang Minh</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
 
-  <!-- Tiêu đề hoặc Banner động -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=11,18,22&height=180&section=header&text=VOC%20Web%20AI%20Portfolio&fontSize=42&fontColor=ffffff&animation=fadeIn" alt="VOC Web AI Banner" width="100%" />
+    <!-- SIDEBAR BÊN TRÁI -->
+    <aside class="sidebar">
+        <div class="avatar">
+            <span>ĐN</span>
+        </div>
+        <h2>Đào Nhựt Quang Minh</h2>
+        <p class="role">Frontend Developer</p>
+        <p class="location">📍 Đồng Nai, Việt Nam</p>
+        
+        <nav class="nav-menu">
+            <a href="#about" class="active">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" /></svg>
+                Giới thiệu
+            </a>
+            <a href="#skills">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" /></svg>
+                Kỹ năng
+            </a>
+            <a href="#services">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
+                Dịch vụ
+            </a>
+            <a href="#projects">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 002-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" /></svg>
+                Dự án
+            </a>
+            <a href="#contact">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
+                Liên hệ
+            </a>
+        </nav>
+        
+        <div class="social-links">
+            <a href="#" aria-label="Github">🐙</a>
+            <a href="#" aria-label="LinkedIn">💼</a>
+            <a href="#" aria-label="Facebook">📘</a>
+        </div>
+    </aside>
 
-  <p align="center">
-    <strong>Dự án xây dựng Portfolio cá nhân hiện đại & các bài thực hành thiết kế Web chuẩn SEO, tối ưu trải nghiệm người dùng.</strong>
-  </p>
+    <!-- MAIN CONTENT BÊN PHẢI -->
+    <main class="main-content">
+        
+        <!-- Giới thiệu -->
+        <section class="card glass-effect" id="about">
+            <div class="card-header">
+                <h3>Giới thiệu Bản Thân</h3>
+                <span class="badge">Xin chào 👋</span>
+            </div>
+            <p class="desc-text">Tôi là một lập trình viên Frontend đam mê xây dựng giao diện người dùng hiện đại, tối ưu trải nghiệm và tương thích trên đa nền tảng thiết bị. Luôn theo đuổi các chuẩn mực code sạch và công nghệ mới như CSS Grid, Flexbox, và ReactJS.</p>
+        </section>
 
-  <p align="center">
-    <img src="https://img.shields.io/badge/Author-Đào%20Nhựt%20Quang%20Minh-blue?style=flat-square&logo=github" alt="Author">
-    <img src="https://img.shields.io/badge/Status-Active-success?style=flat-square" alt="Status">
-    <img src="https://img.shields.io/badge/License-MIT-yellow?style=flat-square" alt="License">
-  </p>
+        <!-- Kỹ năng -->
+        <section class="card glass-effect" id="skills">
+            <div class="card-header">
+                <h3>Kỹ Năng Chuyên Môn</h3>
+            </div>
+            <div class="skills-container">
+                <span class="skill-pill">HTML5</span>
+                <span class="skill-pill">CSS3</span>
+                <span class="skill-pill">JavaScript (ES6+)</span>
+                <span class="skill-pill">Flexbox</span>
+                <span class="skill-pill">CSS Grid</span>
+                <span class="skill-pill">Responsive Design</span>
+                <span class="skill-pill">Git / GitHub</span>
+                <span class="skill-pill">UI/UX Design</span>
+                <span class="skill-pill">Figma</span>
+            </div>
+        </section>
 
-</div>
+        <!-- Dịch vụ -->
+        <section class="card glass-effect" id="services">
+            <div class="card-header">
+                <h3>Dịch Vụ Cung Cấp</h3>
+            </div>
+            <div class="services-container">
+                <!-- Dịch vụ 1 -->
+                <div class="service-card">
+                    <div class="service-icon">🎨</div>
+                    <h4>Thiết Kế UI/UX</h4>
+                    <p>Thiết kế giao diện người dùng đẹp mắt, hiện đại và chuẩn trải nghiệm người dùng.</p>
+                </div>
+                <!-- Dịch vụ 2 -->
+                <div class="service-card">
+                    <div class="service-icon">💻</div>
+                    <h4>Phát Triển Web</h4>
+                    <p>Xây dựng website chuẩn SEO, code sạch và hiệu năng cao với HTML, CSS và JavaScript.</p>
+                </div>
+                <!-- Dịch vụ 3 -->
+                <div class="service-card">
+                    <div class="service-icon">📱</div>
+                    <h4>Responsive Design</h4>
+                    <p>Tương thích mượt mà trên mọi thiết bị: máy tính bàn, laptop, máy tính bảng và mobile.</p>
+                </div>
+                <!-- Dịch vụ 4 -->
+                <div class="service-card">
+                    <div class="service-icon">⚡</div>
+                    <h4>Tối Ưu Hiệu Năng</h4>
+                    <p>Tăng tốc độ tải trang, nâng cao điểm Google PageSpeed và tối ưu trải nghiệm tương tác.</p>
+                </div>
+            </div>
+        </section>
 
----
+        <!-- Dự án -->
+        <section class="card glass-effect" id="projects">
+            <div class="card-header">
+                <h3>Dự Án Nổi Bật</h3>
+            </div>
+            <div class="projects-grid">
+                <!-- Dự án 1 -->
+                <div class="project-item">
+                    <div class="project-icon">🛒</div>
+                    <h4>E-Commerce Dashboard</h4>
+                    <p>Hệ thống quản lý cửa hàng với giao diện trực quan, tối ưu dữ liệu.</p>
+                    <a href="#" class="btn-link">Xem chi tiết &rarr;</a>
+                </div>
+                <!-- Dự án 2 -->
+                <div class="project-item">
+                    <div class="project-icon">📱</div>
+                    <h4>Social Media App</h4>
+                    <p>Ứng dụng mạng xã hội tương tác thời gian thực, thiết kế Mobile-first.</p>
+                    <a href="#" class="btn-link">Xem chi tiết &rarr;</a>
+                </div>
+            </div>
+        </section>
 
-## 👨‍💻 Thông Tin Tác Giả (Author)
+        <!-- Liên hệ -->
+        <section class="card glass-effect" id="contact">
+            <div class="card-header">
+                <h3>Kết nối với tôi</h3>
+            </div>
+            <p class="desc-text" style="margin-bottom: var(--spacing-20);">Bạn có dự án thú vị? Đừng ngần ngại gửi tin nhắn cho tôi nhé.</p>
+            <div class="contact-form">
+                <input type="email" placeholder="Nhập email của bạn..." class="form-input">
+                <button class="btn-primary">Gửi lời chào</button>
+            </div>
+        </section>
 
-* **Họ và tên:** Đào Nhựt Quang Minh
-* **Vai trò:** Frontend Developer
-* **Địa điểm:** Đồng Nai, Việt Nam
-* **Học tập tại:** Trường Đại học Lạc Hồng (LHU)
+        <footer class="main-footer">
+            &copy; 2026 Đào Nhựt Quang Minh.<br>Thiết kế tinh gọn bằng CSS Grid & Flexbox chuẩn chỉnh.
+        </footer>
+    </main>
 
----
-
-## 🛠️ Công Nghệ & Kỹ Năng Sử Dụng (Tech Stack)
-
-Dự án áp dụng các tiêu chuẩn thiết kế và lập trình web tiên tiến:
-* **Ngôn ngữ:** HTML5, CSS3, JavaScript (ES6+)
-* **Layout & Styling:** CSS Grid, Flexbox, Responsive Web Design
-* **Giao diện & UI/UX:** Thiết kế tinh gọn theo tone màu **Gold Luxury** sang trọng, chữ hiển thị sắc nét tuyệt đối.
-* **Công cụ quản lý:** Git / GitHub, VS Code, Figma
-
----
-
-## 🚀 Các Tính Năng & Hoạt Động Nổi Bật
-
-* **Sidebar Đa nhiệm:** Tích hợp menu điều hướng mượt mà (Giới thiệu, Kỹ năng, Dự án, Liên hệ).
-* **Hiệu ứng Thẻ Card Tinh Tế:** Sử dụng nền trắng đục tuyệt đối (`--surface: #ffffff`) giúp chữ rõ nét, kết hợp điểm nhấn vàng gold sang trọng.
-* **Responsive Design:** Tương thích hoàn hảo trên mọi thiết bị từ màn hình máy tính đến điện thoại di động.
-
----
-
-## 📂 Cấu Trúc Dự Án (Project Structure)
-
-```text
-voc-web-ai/
-├── hoatdong1.html       # Bài thực hành căn giữa với Flexbox
-├── hoatdong1-style.css  # CSS cho hoạt động 1
-├── Hoạt động2.html      # Trang Portfolio cá nhân chính
-├── hoatdong2-style.css  # File cấu hình biến màu sắc (:root) và giao diện Gold Luxury
-└── README.md            # Tài liệu giới thiệu dự án
+</body>
+</html>
